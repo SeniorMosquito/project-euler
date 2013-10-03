@@ -1,0 +1,5 @@
+; initial attempts largely lost...
+
+; solution + some community ideas:
+
+(loop for i from 1 below 1000 when (or (zerop (mod i 3)) (zerop (mod i 5))) sum i)
